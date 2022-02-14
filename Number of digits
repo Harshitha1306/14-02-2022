@@ -1,0 +1,6 @@
+p=int(input('enter the value of p :'))
+count=0
+while(p>0):
+    count=count+1
+    p=p//10
+print('no.of digits of a number :',count)
